@@ -1,0 +1,25 @@
+{
+  "name": "ccl",
+  "displayName": "CCL Formatter",
+  "description": "Syntax highlighting and formatting for CCL (Cerner Command Language)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ccl",
+      "aliases": ["CCL", "ccl"],
+      "extensions": [".prg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ccl",
+      "scopeName": "source.prg",
+      "path": "./syntaxes/ccl.tmLanguage.json"
+    }]
+  }
+}
