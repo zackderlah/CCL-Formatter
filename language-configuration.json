@@ -26,5 +26,11 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"]
-    ]
-}
+    ],
+         "indentationRules": {
+           //"increaseIndentPattern": "^.*from.*$",
+           "increaseIndentPattern": "(from|join|plan|order by|head|head report|subroutine|foot|foot report)",
+           "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\)\\}\\]].*$"
+         }
+      
+} 

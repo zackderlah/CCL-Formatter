@@ -395,6 +395,7 @@ params: 	n/a
 Returns:
 Purpose:	Find out which mothers qualify for the extract
 **************************************************************/
+
 subroutine GetQualifyingMothers(null)
 	select into "nl:"
 	from pregnancy_instance pi
